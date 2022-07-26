@@ -1,0 +1,78 @@
+@media (min-width: 1400px) {
+    .body {
+        max-width: 1470px;
+    }
+
+    /* .header,
+    .hero,
+    .experience {
+        padding-left: 8%;
+        padding-right: 8%;
+    } */
+
+    .hero__logo {
+        font-size: 32px;
+    }
+    .hero__item {
+        max-width: 40%;
+    }
+
+    .hero__item-title {
+        font-size: 42px;
+    }
+
+    .hero-vr__text-title {
+        font-size: 28px;
+    }
+
+    .experience-content__title {
+        font-size: 24px;
+    }
+
+    .nav-list__item,
+    .hero__item-describe,
+    .hero__btns-info,
+    .hero-vr__text-descr {
+        font-size: 16px;
+    }
+
+    .people-online {
+        font-size: 12px;
+    }
+
+    .experience-content {
+        max-width: 300px;
+    }
+
+    .hero,
+    .experience {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .experience-photo {
+        gap: 25%;
+    }
+
+    .hero__vr-photo {
+        width: 600px;
+    }
+
+    .headsets__header,
+    .clients__coments {
+        max-width: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .body {
+        max-width: 1230px;
+    }
+
+    .hero__vr-photo {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 992px) {}

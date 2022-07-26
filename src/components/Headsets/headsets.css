@@ -1,0 +1,116 @@
+.headsets {
+    position: relative;
+    /* delete after adding container */
+    max-width: 884px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.headsets__header {
+    margin: 0 auto;
+    max-width: 795px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headsets__header-title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFF;
+}
+
+.headsets__header-sort {
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #5A5B6A;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.headsets__item {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+    z-index: 20;
+}
+.headsets__item-set {
+    position: relative;
+}
+
+.item-set__photo {
+    max-width: 230px;
+    max-height: 179px;
+    display: flex;
+    gap: 40px;
+}
+
+.item-set__dscr {
+    position: absolute;
+    padding: 6px 12px;
+    max-width: 107px;
+    max-height: 55px;
+    bottom: 0;
+    background: rgba(255, 255, 255, .18);
+    backdrop-filter: blur(22.6977px);
+    border-radius: 0 0 0 5px;
+}
+
+.item-set__dscr-name {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 7px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFF;
+}
+
+.item-set__dscr-text {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+    color: #EFDEDE;
+}
+
+.headsets__pagination {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.headsets__pagination-num {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFF;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.headsets__pagination-num:hover {
+    color: #4200FF;
+    border: 1px solid #4200FF;
+}
+
+.hheadsets__pagination-num--active {
+    color: #4200FF;
+    border: 1px solid #4200FF;
+}
+
+.headsets__ellipce {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}

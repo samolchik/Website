@@ -1,0 +1,72 @@
+.experience {
+    display: flex;
+    justify-content: space-evenly;
+
+    /* delete after adding container */
+    height: 450px;
+    max-width: 884px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.experience-ellipse__left {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.experience-photo {
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+
+.experience-photo__women {
+    align-self: flex-start;
+}
+
+.experience-photo__men {
+    align-self: end;
+}
+
+.experience-content {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    max-width: 220px;
+    max-height: 70px;
+}
+
+.experience-content__title {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFF;
+}
+
+.experience-content__describe {
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, .85);
+}
+
+.experience-btn {
+    padding: 11px 16px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFF;
+    background: linear-gradient(99.99deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.experience-btn:hover {
+    background: linear-gradient(99.05deg, #791c8e 0.07%, #ab206a 106.32%);
+}

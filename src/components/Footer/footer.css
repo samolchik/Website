@@ -1,0 +1,88 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 884px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.footer__content {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #AA14F0 -42.58%, rgba(170, 20, 240, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(185, 54, 245, 0) 100%);
+    border-radius: 7px;
+}
+
+.footer__item {
+    max-width: 191px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__item-title {
+    margin-bottom: 11px;
+    max-width: 168px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.footer__item-description {
+    margin-bottom: 13px;
+    max-width: 170px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    color: rgba(255, 255, 255, .85);
+}
+
+.footer__form {
+    display: flex;
+    gap: 11px;
+}
+
+.footer__form-input {
+    padding: 5px 0 5px 5px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 11px;
+    color: #F4F9FE;
+    background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #CB8DE8 -42.58%, rgba(203, 143, 232, .18) 4.35%, rgba(151, 60, 68, .055) 99.99%, rgba(199, 137, 228, 0) 100%);
+    box-shadow: inset 0px -9.72759px 16.2127px rgba(255, 255, 255, .03);
+    backdrop-filter: blur(12.1595px);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.footer__form-input:focus {
+    background: linear-gradient(99.99deg, #B936F5 -41%, #C64C85 100%, #F1005B 100%);
+}
+
+.footer__form-input::placeholder {
+    color: rgba(224, 163, 201, 0.56);
+}
+
+.footer__form-btn {
+    padding: 5px 11px;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 8px;
+    color: #F4F9FE;
+    background: linear-gradient(99.99deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.footer__form-btn:hover {
+    background: linear-gradient(99.99deg, #6f2193 -21.45%, #a0265f 100%, #98043d 100%);
+
+}

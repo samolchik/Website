@@ -1,0 +1,31 @@
+body {
+    /* delete after adding container */
+    max-width: 884px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.video {
+    padding: 13px 66px 13px 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 842px;
+    width: 100%;
+    background: #534686;
+    border-top-right-radius: 60px;
+    border: inset #883daa;
+}
+
+.video__title {
+    max-width: 490px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+}
+
+.video__img {
+    display: flex;
+}

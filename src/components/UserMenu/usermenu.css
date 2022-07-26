@@ -1,0 +1,22 @@
+.user-menu {
+    max-width: 884px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.custom-select {
+    padding: 8px 0 8px 12px;
+    max-width: 304px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F2F2F2;
+    background-color: #010208;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

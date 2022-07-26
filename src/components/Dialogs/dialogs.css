@@ -1,0 +1,239 @@
+/*Sign In Page*/
+.sign-in {
+    max-width: 884px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.sign-in__form {
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+.form-email,
+.form-password {
+    margin-bottom: 32px;
+    padding: 18px 0 18px 32px;
+    max-width: 560px;
+    width: 100%;
+    gap: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+    background-color: #000000;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn {
+    padding: 12px 130px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+    background-color: #9F62BB;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #883daa;
+}
+
+.form-email:focus,
+.form-password:focus {
+    background-color: #f1d8f7;
+    border: 3px solid #883daa;
+    color: #883daa;
+    border-radius: 5px;
+}
+
+/* Adding Card */
+
+.adding-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 884px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #010208;
+}
+
+.adding-card {
+    padding: 35px 5px;
+}
+
+.adding-card__title {
+    margin-bottom: 36px;
+    padding: 27px 0 31px 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    background: #534686;
+    border-top-right-radius: 60px;
+    border: inset #883daa;
+}
+
+.adding-card__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adding-card__form-name {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+.adding-card__form-input {
+    margin-bottom: 16px;
+    padding: 18px 0 18px 32px;
+    max-width: 560px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+
+    background-color: #000000;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adding-card__form-btn {
+    padding: 12px 141px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+    background-color: #9F62BB;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adding-card__form-btn:hover {
+    background-color: #883daa;
+}
+
+.adding-card__form-input:focus {
+    background-color: #f1d8f7;
+    border: 3px solid #883daa;
+    color: #883daa;
+    border-radius: 5px;
+}
+
+.adding-card__ellipse {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+/* Item Page */
+
+.item-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 884px;
+    margin: 0 auto;
+    background-color: #010208;
+    z-index: 100;
+    padding: 18px 58px 78px 58px
+}
+
+.item-page__btn {
+    margin-bottom: 42px;
+    padding: 12px 26px;
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFF;
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-page__btn:hover {
+    background: linear-gradient(99.05deg, #791c8e 0.07%, #ab206a 106.32%);
+}
+
+.item-page__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.item-page__content-photo {
+    margin-bottom: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.description-title {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: left;
+    text-decoration-line: underline;
+    color: #FFF;
+}
+
+.description-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #EFDEDE;
+}
+
+.item-page__ellipse-top,
+.item-page__ellipse-left,
+.item-page__ellipse-right {
+    position: absolute;
+}
+
+.item-page__ellipse-top {
+    top: 0;
+    z-index: 10;
+}
+
+.item-page__ellipse-left {
+    left: 0;
+    bottom: -50px;
+    z-index: 20;
+}
+
+.item-page__ellipse-right {
+    right: 0;
+    bottom: -50px;
+    z-index: 30;
+}
