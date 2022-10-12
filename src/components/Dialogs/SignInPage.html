@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/styles/reset.css" />
-    <link rel="stylesheet" href="../../components/Dialogs/dialogs.css" />
-    <title>SignInPage</title>
-  </head>
-  <body>
-    <div class="sign-in">
-      <form class="sign-in__form">
-        <h2 class="form-title">Sign in</h2>
-        <input class="form-email" placeholder="Email or username" type="text" />
-        <input class="form-password" placeholder="Password" type="password" />
-        <button class="form-btn">Sign in</button>
-      </form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="../src/assets/styles/reset.css" />
+  <link rel="stylesheet" href="../../components/Dialogs/SignInPage.css" />
+  <title>SignInPage</title>
+</head>
+
+<body>
+  <section class="sign-in-page">
+  <div class="sign-in">
+    <div class="sign-in__header">
+      <h2 class="header__logo">Light</h2>
+      <div class="header__burger">
+        <button id="burgerMenuIcon">
+          <img src="../../assets/icons/Header/burger-menu.svg" alt="burger-menu">
+        </button>
+        <div id="burgerMenuList" class="burger__menu-list">
+          <nav class="burger__nav"> 
+            <ul class="burger__nav-list">
+              <li class="nav-list__item nav-list__item--active">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="#">Company</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="#">Features</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-  </body>
+    <form class="sign-in__form">
+      <h2 class="form-title">Sign in</h2>
+      <input id="formEmail" class="form-email" placeholder="Email or username" type="text" value=""/>
+      <input id="formPassword" class="form-password" placeholder="Password" type="password" value=""/>
+      <button class="form-btn">Sign in</button>
+    </form>
+  </div>
+  <img class="sign-in__ellipse-left" src="../../assets/icons/Dialogs/sign-in/ellipse-left-top.svg" alt="ellipse left top">
+  <img class="sign-in__ellipse-right" src="../../assets/icons/Dialogs/sign-in/ellipse-right-button.svg" alt="ellipse right button">
+</section>
+<script src="../Dialogs/signInPage.js"></script>
+</body>
+
+
+
 </html>

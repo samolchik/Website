@@ -1,0 +1,160 @@
+/*-----Sign In Page-----*/
+.sign-in__page {
+    position: fixed;
+    padding: 48px 147px;
+    max-width: 884px;
+    max-height: 363px;
+    /* width: 100%; */
+    height: 100%;
+    margin: 0 auto;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: #010208;
+    z-index: 100;
+}
+
+.sign-in__header {
+    display: none;
+}
+
+.sign-in__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    margin-bottom: 24px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+}
+.form-email {
+    margin-bottom: 16px;
+}
+
+.form-email,
+.form-password {
+    padding: 18px 0 18px 32px;
+    max-width: 560px;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+    background-color: #000000;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn {
+    margin-top: 32px;
+    padding: 12px 130px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFF;
+    background-color: #9F62BB;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #883daa;
+}
+
+.form-email:focus,
+.form-password:focus {
+    background-color: #f1d8f7;
+    border: 3px solid #883daa;
+    color: #883daa;
+    border-radius: 5px;
+}
+
+.sign-in__ellipse-left,
+.sign-in__ellipse-right {
+    display: none;
+}
+
+@media (max-width: 680px) {
+    .sign-in__page {
+        position: relative;
+        padding: 16px 16px 76px 16px;
+        max-height: 844px;
+    }
+
+
+    .form-btn {
+        padding: 11px 86px;
+        font-size: 14px;
+        line-height: 13px;
+    }
+
+    .form-email,
+    .form-password {
+        padding: 18px 0 18px 16px;
+        max-width: 358px;
+        font-size: 18px;
+        line-height: 23px;
+
+    }
+    .sign-in__ellipse-left {
+        position: absolute;
+        display: flex;
+        left: 20px;
+        top: 0;
+        filter: blur(20px);
+        z-index: -1;
+    }
+
+    .sign-in__ellipse-right {
+        position: relative;
+        display: flex;
+        right: -45%;
+        filter: blur(15px);
+        z-index: 20;
+    }
+
+    .sign-in__header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-family: 'Inter', sans-serif
+    }
+
+    .header__logo {
+        font-family: 'IM Fell Great Primer SC', serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFF;
+    }
+
+    .header__burger {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        right: 16px;
+        top: 16px;
+        z-index: 2;
+    }
+
+    .burger__nav-list {
+        padding: 10px 10px 10px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #fff;
+        background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+        box-shadow: 14px 31px 38px rgba(24, 23, 55, 0.58);
+        border-radius: 6px;
+    }
+
+}

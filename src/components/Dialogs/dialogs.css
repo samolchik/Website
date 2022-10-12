@@ -1,66 +1,3 @@
-/*Sign In Page*/
-.sign-in {
-    max-width: 884px;
-    padding: 0 15px;
-    margin: 0 auto;
-    background-color: #010208;
-}
-
-.sign-in__form {
-    padding: 48px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-title {
-    margin-bottom: 24px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    color: #FFF;
-}
-
-.form-email,
-.form-password {
-    margin-bottom: 32px;
-    padding: 18px 0 18px 32px;
-    max-width: 560px;
-    width: 100%;
-    gap: 16px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FFF;
-    background-color: #000000;
-    border: 2px solid #C8D1E6;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.form-btn {
-    padding: 12px 130px;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FFF;
-    background-color: #9F62BB;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.form-btn:hover {
-    background-color: #883daa;
-}
-
-.form-email:focus,
-.form-password:focus {
-    background-color: #f1d8f7;
-    border: 3px solid #883daa;
-    color: #883daa;
-    border-radius: 5px;
-}
 
 /* Adding Card */
 
@@ -237,3 +174,4 @@
     bottom: -50px;
     z-index: 30;
 }
+
